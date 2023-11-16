@@ -1,5 +1,5 @@
 {% set name = "stringparser" %}
-{% set version = "0.5" %}
+{% set version = "0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/stringparser-{{ version }}.tar.gz
-  sha256: fe651a623361a3555a5ed29704a4c3b990ce0b7071038ecff25087a87b0d9880
+  sha256: bf37aac0166fc8f5705b450cc332f0d323e2d8b8191017bbfebe1f489f18f64d
 
 build:
   noarch: python
